@@ -1,6 +1,6 @@
 {
   "name": "@tawasukha/crypt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -40,7 +40,7 @@
     "testEnvironment": "node"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=16"
   },
   "size-limit": [
     {
