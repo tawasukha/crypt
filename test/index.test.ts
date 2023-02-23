@@ -1,9 +1,9 @@
 import { crypt } from "../src/index"
 import { CryptOption } from "../src/util/type"
 
-const option: CryptOption = { secret: "www88a8078385d0c", output: "hex" }
+const option: CryptOption = { secret: "www88a8078385d0c", output: "base64url" }
 const text = "Hello World"
-const encrypted = "7c6a84c89c075c3b4f8549ab09bbb804"
+const encrypted = "fGqEyJwHXDtPhUmrCbu4BA"
 const crypto = crypt(option)
 
 describe('crypt', () => {
